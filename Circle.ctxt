@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=center\ radius\ color
+comment0.target=Circle(java.awt.geom.Point2D.Double,\ double,\ java.awt.Color)
+comment0.text=\r\n\ Circle\ constructor\r\n\ \r\n\ @param\ center\ \ \ \ The\ center\ of\ the\ Circle\ shape\r\n\ @param\ radius\ \ \ \ The\ radius\ of\ the\ Circle\ shape\r\n\ @param\ color\ \ \ \ \ The\ color\ of\ the\ Circle\ shape\r\n
+comment1.params=g2\ filled
+comment1.target=void\ draw(java.awt.Graphics2D,\ boolean)
+comment1.text=\r\n\ Abstract\ implementation\ of\ the\ abstract\ method\ draw\ that\ exists\ in\ the\ shape\r\n\ object.\r\n\ \r\n\ @param\ g2\ \ \ \ \ \ \ \ Graphics2D\ object\ passed\ by\ paint\ component\r\n\ @param\ filled\ \ \ \ Toggle\ fill\ parameter\r\n
+comment2.params=point
+comment2.target=boolean\ isInside(java.awt.geom.Point2D.Double)
+comment2.text=\r\n\ Abstract\ implementation\ of\ the\ abstract\ method\ isInside\ that\ exists\ in\ the\ sd\r\n\ shape\ object.\r\n\ \r\n\ @param\ point\ The\ point\ at\ which\ to\ check\ is\ inside\ this\ shape\r\n\ @return\ \ Returns\ true\ if\ point\ exists\ in\ this\ shape,\ false\ otherwise\r\n
+comment3.params=point
+comment3.target=boolean\ isOnBorder(java.awt.geom.Point2D.Double)
+comment3.text=\r\n\ Abstract\ implementation\ of\ the\ abstract\ method\ isOnBorder\ that\ exists\ in\r\n\ the\ shape\ object.\r\n\ \r\n\ @param\ point\ The\ point\ at\ which\ tocheck\ is\ approximately\ on\ the\ border\ of\ this\ shape\r\n\ @return\ Returns\ true\ if\ point\ exists\ near\ the\ border,\ false\ otherwise\r\n
+comment4.params=
+comment4.target=java.awt.geom.Ellipse2D.Double\ getCircle()
+comment5.params=x\ y
+comment5.target=void\ translate(double,\ double)
+numComments=6

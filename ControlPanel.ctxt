@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=panel
+comment0.target=ControlPanel(DrawingPanel)
+comment0.text=\r\n\ Populates\ the\ ControlPanel\ object\ with\ a\ series\ of\ buttons\ and\ panels\ to\ give\r\n\ control\ a\ DrawingPanel\ object.\ Uses\ a\ JPanel\ to\ display\ current\ information\ \r\n\ relevant\ to\ the\ user.\r\n
+comment1.params=
+comment1.target=void\ chooseColor()
+comment1.text=\r\n\ Calls\ the\ pickColor\ method\ from\ the\ DrawingPanel\ object\ and\ sets\ the\ background\r\n\ of\ displayColor\ to\ the\ current\ color.\r\n
+comment2.params=
+comment2.target=void\ addSquare()
+comment2.text=\r\n\ Calls\ the\ addSquare\ method\ from\ the\ DrawingPanel\ object.\r\n
+comment3.params=
+comment3.target=void\ addCircle()
+comment3.text=\r\n\ Calls\ the\ addCircle\ method\ from\ the\ DrawingPanel\ object.\r\n
+numComments=4
